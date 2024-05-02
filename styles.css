@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navBar{
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+}
+
+.navBar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.index__main{
+    display: flex;
+    justify-content: space-around;
+}
