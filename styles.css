@@ -132,3 +132,43 @@
     width: 250px;
     border-radius: 20%;
 }
+
+/* METODOLOGIA */
+
+/* PLAYGROUND */
+
+.pg__main{
+    background-color: #46075c;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.pg__main h1{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+
+.pg__main img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.pg__card{
+    padding: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6a147e;
+}
+
+.pg__card a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
