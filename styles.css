@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+
+/* INICIO */
+
 .navBar{
     position: fixed;
     width: 100%;
@@ -63,4 +66,36 @@
 .index__main img{
     width: 500px;
     border-radius: 20px;
+}
+
+
+/* NUESTRO EQUIPO */
+
+.WeTeam__main{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0px 100px;
+    height: 100vh;
+    background-color: #46075c;
+}
+
+.team__card{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.team__card:hover{
+    background-color: #6a147e;
+}
+
+.team__card p{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.team__card img{
+    width: 200px;
+    border-radius: 50%;
 }
