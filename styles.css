@@ -160,6 +160,8 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    background-color: #6a147e;
+    padding: 20px;
 }
 .metodologia__cdv h2{
     color: #fff;
@@ -178,10 +180,12 @@
 }
 
 .metodologia__scrum{
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    background-color: #6a147e;
 }
 .metodologia__scrum img{
     width: 1000px;
@@ -231,4 +235,15 @@
     color: #fff;
     text-decoration: none;
     font-size: 20px;
+}
+
+/* CRONOGRAMA */
+.cronograma__main{
+    height: 100vh;
+    background-color: #46075c;
+}
+
+.cronograma__main img{
+    padding: 60px 155px;
+    width: 1000px;
 }
