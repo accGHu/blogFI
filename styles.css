@@ -99,3 +99,36 @@
     width: 200px;
     border-radius: 50%;
 }
+
+/* PLANTEAMIENTO */
+
+.p__main{
+    padding-top: 100px;
+    background-color: #46075c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.p__card{
+    text-align: center;
+    width: 70%;
+}
+
+.p__card h2{
+    padding: 10px;
+    color: #fff;
+    font-size: 40px;
+}
+
+.p__card p{
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+.p__card img{
+    padding: 10px;
+    width: 250px;
+    border-radius: 20%;
+}
