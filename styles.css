@@ -135,6 +135,66 @@
 
 /* METODOLOGIA */
 
+.metodologia__main{
+    background-color: #46075c;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.metodologia__main h1{
+    text-align: center;
+    color: #fff;
+    font-size: 100px;
+}
+
+.metodologia__cdv{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 30px;
+}
+
+.cdv__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.metodologia__cdv h2{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.metodologia__cdv p{
+    width: 50%;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+.metodologia__cdv img{
+    width: 200px;
+}
+
+.metodologia__scrum{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.metodologia__scrum img{
+    width: 1000px;
+    height: 300px;
+}
+
+.metodologia__scrum p{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    width: 70%;
+    padding-bottom: 100px;
+}
 /* PLAYGROUND */
 
 .pg__main{
